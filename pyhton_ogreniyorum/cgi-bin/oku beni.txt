@@ -1,0 +1,25 @@
+From the http.server docs:
+
+CGIHTTPRequestHandler can be enabled in the command line by passing the --cgi option:
+$ python3 -m http.server --bind localhost --cgi 8000
+Put your script into cgi_directories:
+
+This defaults to ['/cgi-bin', '/htbin'] and describes directories to treat as containing CGI scripts.
+Open in the browser:
+
+$ python -mwebbrowser http://localhost:8000/cgi-bin/hello.py
+where hello.py:
+
+#!/usr/bin/env python
+print("Content-Type: text/plain\n")
+print("hello")
+I had to make it executable on POSIX: chmod +x cgi-bin/hello.py.
+
+
+http://cgi.tutorial.codepoint.net/unique-field-names
+http://www.tutorialspoint.com/python3/python_cgi_programming.htm
+http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/dynamic.html+
+http://www.tutorialspoint.com/python/python_cgi_programming.htm
+https://docs.python.org/3/library/cgi.html
+http://pythontr.blogspot.com.tr/2008/10/cgi-pythona-giri.html
+http://www.johnloomis.org/python/

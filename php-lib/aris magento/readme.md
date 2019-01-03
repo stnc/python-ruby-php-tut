@@ -1,0 +1,1 @@
+ariş in anasayfasındaki kodlar ı magento ya cevir 

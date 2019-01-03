@@ -1,0 +1,49 @@
+{
+
+    "name":             "erp project",
+    "description":      "next generation erp project",
+    "keywords":         ["mutant", "superhero", "bald", "guy"],
+    "homepage":         "http://selmantunc.com",
+    "time":             "1963-09-01",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "selman tunç",
+            "email":        "selmantunc@gmail.com",
+            "homepage":     "http://selmantunc.com",
+            "role":         "Genius"
+        }
+    ],
+
+
+    "require": {
+        "symfony/http-foundation": "2.6.*@dev",
+     	"smarty/smarty": "3.1.*@dev"
+
+    },
+
+      "autoload": {
+    	"psr-0": {"Builder": "src/"
+        },
+         "classmap": [
+            "vendor/stnc/uploader.php",
+            "vendor/ezsql/cubrid/ez_sql_cubrid.php",
+            "vendor/ezsql/cubrid/ez_sql_cubrid.php",
+            "vendor/ezsql/pdo/ez_sql_pdo.php",
+            "vendor/ezsql/postgresql/ez_sql_postgresql.php",
+            "vendor/ezsql/mysql/ez_sql_mysql.php",
+            "vendor/ezsql/mysqli/ez_sql_mysqli.php",
+            "vendor/ezsql/sqlsrv/ez_sql_sqlsrv.php",
+            "vendor/ezsql/oracle8_9/ez_sql_oracle8_9.php",
+            "vendor/ezsql/sqlite/ez_sql_sqlite.php",
+            "vendor/ezsql/shared/ez_sql_core.php",
+            "vendor/ezsql/mssql/ez_sql_mssql.php",
+            "vendor/ezsql/sybase/ez_sql_sybase.php",
+            "vendor/ezsql/codeigniter/Ezsql_codeigniter.php"
+        ]
+    }
+    
+    
+}
+
+

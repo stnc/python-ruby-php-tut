@@ -1,0 +1,17 @@
+# https://winscp.net/eng/docs/scripting
+# Connect a user
+open ftp://nucles@chromthemes.com:sHu)f(eNeNsR@chromthemes.com/
+# Upload the file to current working directory
+cd /assets
+put D:\xampp\htdocs\testwp.dev\wp-content\themes\nucleon\assets\css
+cd /assets/css
+put D:\xampp\htdocs\testwp.dev\wp-content\themes\nucleon\assets\css\dev
+cd /assets/css/dev
+put D:\xampp\htdocs\testwp.dev\wp-content\themes\nucleon\assets\css\dev\CHfw-style.css
+cd /assets/css
+put D:\xampp\htdocs\testwp.dev\wp-content\themes\nucleon\assets\css\user.css.php
+put D:\xampp\htdocs\testwp.dev\wp-content\themes\nucleon\includes\live_config.php
+#Disconnect
+close
+#Exit WinSCP
+exit
