@@ -1,0 +1,25 @@
+nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+
+[mysqld]
+max_allowed_packet = 256M
+innodb_buffer_pool_size = 4G
+innodb_log_buffer_size = 256M
+innodb_log_file_size = 1G
+innodb_write_io_threads = 16
+innodb_flush_log_at_trx_commit = 0
+
+
+sudo service mysql restart;
+
+mysql --max_allowed_packet=256M -u root -p crawler < crawl.sql
+
+***sifreleme **********
+
+mysql -u root
+use mysql;
+update user set password=PASSWORD('pass') where User='root';
+flush privileges;
+
+grant all privileges on *.* to 'root'@'localhost' identified by 'pass' with grant option;
+
+sudo service mysql restart;
