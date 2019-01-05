@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magehit_Deleteorders::magehit_deleteorders" title="Delete orders" module="Magehit_Deleteorders" sortOrder="15" parent="Magehit_Core::view" action="adminhtml/system_config/edit/section/magehit_deleteorders" resource="Magehit_Deleteorders::deleteorders"/>
+	</menu>
+</config>
