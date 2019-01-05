@@ -1,0 +1,1010 @@
+ReferenceError: Can't find variable: showjGrowl
+
+  https://www.funagain.com/control/product?product_id=033906:395 in global code
+<!DOCTYPE html><html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" class="wf-myriadpro-n9-active wf-myriadpro-n7-active wf-myriadpro-n3-active wf-myriadpro-n4-active wf-myriadpro-n6-active wf-active"><head>
+<meta charset="utf-8">
+<meta name="robots" content="index, follow">
+<title>T.I.M.E Stories: Funagain Games</title>
+<script type="text/javascript" src="https://bam.nr-data.net/1/4f9e12108e?a=3078544&amp;v=1099.d27c17c&amp;to=ZlAEYREDWkEEUEdaXF8aA1YMD1lXF1BWHFZSWgtYBhBXV0pDQVxXRFYS&amp;rst=7863&amp;ref=https://www.funagain.com/control/product&amp;ap=346&amp;be=798&amp;fe=2651&amp;dc=1267&amp;af=err,xhr,ins&amp;perf=%7B%22timing%22:%7B%22of%22:1546106349285,%22n%22:0,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:0,%22rp%22:0,%22rpe%22:988,%22dl%22:789,%22di%22:1267,%22ds%22:1267,%22de%22:1336,%22dc%22:2651,%22l%22:2651,%22le%22:2653%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1099.min.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M88TM5H"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQ4OWVNaGwAAU1lXAwU="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="/faimages/css/main-all.css" type="text/css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-105010-2', 'auto');
+       ga('send', 'pageview');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M88TM5H');</script>
+<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/guv1ssg.js"></script>
+<style type="text/css">.tk-myriad-pro{font-family:"myriad-pro",sans-serif;}</style><style type="text/css">@font-face{font-family:myriad-pro;src:url(https://use.typekit.net/af/95c20a/0000000000000000000170a0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff2"),url(https://use.typekit.net/af/95c20a/0000000000000000000170a0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff"),url(https://use.typekit.net/af/95c20a/0000000000000000000170a0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("opentype");font-weight:900;font-style:normal;}@font-face{font-family:myriad-pro;src:url(https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:myriad-pro;src:url(https://use.typekit.net/af/c630c3/000000000000000000017098/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/c630c3/000000000000000000017098/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/c630c3/000000000000000000017098/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:myriad-pro;src:url(https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:myriad-pro;src:url(https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/80c5d0/00000000000000000001709c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;}</style><script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/faimages/jquery/jquery-1.12.4.min"><\/script>')</script>
+<script type="text/javascript" src="/faimages/jquery/jquery.color-2.1.2.min.js"></script>
+<script type="text/javascript" src="/faimages/jquery/jquery.slides.min.js"></script>
+<link rel="stylesheet" href="/faimages/jqueryui/jquery-ui.min.css">
+<script type="text/javascript" src="/faimages/jqueryui/jquery-ui.custom.min.js"></script>
+<script type="text/javascript" src="/faimages/jquery/jquery.slides.min.js"></script>
+<meta name="description" content="Time Stories offers a unique blend of role-playing and boardgaming experience. It is a decksploring game, and each deck of 120+ cards is a new story to explore.">
+<meta name="keywords" content="T.I.M.E Stories, Funagain Main Web Catalog">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#308ebd">
+<meta name="theme-color" content="#308ebd">
+</head>
+<body>
+
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M88TM5H"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+
+<script>
+    var pageId = null;
+    var pageGroupId = null;
+    var currentGroupId, currentId;
+  	var cartDropDownTimer;
+  	var priOriginalColorMap = new Array(), secOriginalColorMap = new Array(), terOriginalColorMap = new Array();
+
+  	function highlightHex(thisGroupId, thisId, unhighlight) {
+  	   if (unhighlight) {
+          if (thisId == pageId  &&  thisGroupId == pageGroupId) {
+             return;  // page category ID highlights stay
+          }
+          $('#' + thisGroupId + '_bg_' + thisId).fadeTo(100.0, 0.25);
+       } else {
+          $('#' + thisGroupId + '_bg_' + thisId).fadeTo(100.0, 1.00);
+       }
+       var labelPrefix = (thisGroupId == 'mcm' ? 'hex' : thisGroupId);
+	   var mmlabel = $('#' + thisGroupId + '_label_' + thisId);
+	   var hexPri = mmlabel.children('.' + labelPrefix + '_pri');
+	   var hexSec = mmlabel.children('.' + labelPrefix + '_sec');
+	   var hexTer = mmlabel.children('.' + labelPrefix + '_ter');
+	   if (hexPri) {
+	      if (unhighlight) {
+             hexPri.animate({ color: priOriginalColorMap[thisId] }, 100.0);
+	      } else {
+	         hexPri.animate({ color: '#FFFFFF' }, 100.0);
+	      }
+	   }
+	   if (hexSec) {
+	      if (unhighlight) {
+             hexSec.animate({ color: secOriginalColorMap[thisId] }, 100.0);
+	      } else {
+	         hexSec.animate({ color: '#FFFFFF' }, 100.0);
+	      }
+	   }
+	   if (hexTer) {
+	      if (unhighlight) {
+             hexTer.animate({ color: terOriginalColorMap[thisId] }, 100.0);
+	      } else {
+	         hexTer.animate({ color: '#FFFFFF' }, 100.0);
+	      }
+	   }
+       if (unhighlight) {
+          mmlabel.removeClass('hex_label_on');
+       } else {
+          mmlabel.addClass('hex_label_on');
+	      currentGroupId = thisGroupId;
+	      currentId = thisId;
+	   }
+  	}
+
+    $(document).ready(function() {
+        // populate the hex colors array
+        $('#mainmenumap, #maincolumnmenumap').children().each(function(idx, val) {
+           var idParts = $(this).attr('id').split('_');
+           var thisGroupId = idParts[0];
+           var thisId = idParts[2];
+           var labelPrefix = (thisGroupId == 'mcm' ? 'hex' : thisGroupId);
+           var mmlabel = $('#' + thisGroupId + '_label_' + thisId);
+           var hexPri = mmlabel.children('.' + labelPrefix + '_pri');
+           var hexSec = mmlabel.children('.' + labelPrefix + '_sec');
+           var hexTer = mmlabel.children('.' + labelPrefix + '_ter');
+           if (hexPri) {
+              priOriginalColorMap[thisId] = hexPri.css("color");
+           }
+           if (hexSec) {
+              secOriginalColorMap[thisId] = hexSec.css("color");
+           }
+           if (hexTer) {
+              terOriginalColorMap[thisId] = hexTer.css("color");
+           }
+        });
+
+        // if we're on a store landing page or side hex page, keep the hex highlighted
+        if (pageId != null  &&  pageGroupId != null) {
+           highlightHex(pageGroupId, pageId);
+        }
+
+        $('#mainmenumap, #maincolumnmenumap').children().each(function(idx, val) {
+           var idParts = $(this).attr('id').split('_');
+           var thisGroupId = idParts[0];
+           var thisId = idParts[2];
+           var labelPrefix = (thisGroupId == 'mcm' ? 'hex' : thisGroupId);
+           $(this).mouseover(function() { highlightHex(thisGroupId, thisId); });
+           $(this).mouseout(function() { highlightHex(thisGroupId, thisId, 'Y'); });
+        })
+
+//        $('#mainsearchbarfield').keyup(searchAutoComplete);
+
+		var orderSearchFieldDefaultText = "order number";
+		$('#orderSearchField').val(orderSearchFieldDefaultText);
+		$('#orderSearchField').on('focus blur', function() {
+		   var currentValue = $('#orderSearchField').val();
+		   if (currentValue == orderSearchFieldDefaultText) {
+		      $('#orderSearchField').val("");
+		      $('#orderSearchField').removeClass("textfieldoff");
+		   }
+		   if (currentValue == "") {
+		      $('#orderSearchField').val(orderSearchFieldDefaultText);
+		      $('#orderSearchField').addClass("textfieldoff");
+		   }
+		});
+
+//        $(document).bind('mousedown touchstart', closeSearchResultDialog); // close the auto-search on a click to the body, EXCEPT for the following areas...
+//        $('#mainsearchresults').bind('mousedown touchstart', function(event){ event.stopPropagation(); });
+
+		$('#maintoolscartdd_tgt').mouseover(openCartDropDown);
+        $("#maintoolscartdd_tgt, #maintoolscartddcontent").mouseleave(function() {
+            cartDropDownTimer = setTimeout(closeCartDropDown, 10);
+        }).mouseenter(function() {
+            clearTimeout(cartDropDownTimer);
+        });
+
+//        $('#mainsearchbargobutton').bind('mousedown touchstart', function() { $('#mainsearchform').submit(); });
+    });
+
+    var isCartDropDownOpen = false;
+/*
+    var isSearchDialogOpen = false;
+    var lastsearch = "";
+    var currentAutoCompleteItemIndex = -1;
+    var maxAutoCompleteItemIndex = 0;
+    var autoCompleteProductArray = new Array();
+    var searchTimerId = 0;
+    var searchTimerDelay = 300;  // in milliseconds
+    var searchWaitHtml = '<div id="sac_wait">Searching...</div>';
+    */
+
+/*
+	function searchAutoComplete(event) {
+	   // first, if our search field is empty, just close it and quit
+	   var searchvalue = $('#mainsearchbarfield').val();
+	   if (searchvalue == null  ||  searchvalue == "") {
+	      closeOpenDropDowns();
+	      $('#mainsearchresults').html(searchWaitHtml);
+	      return false;
+	   }
+
+	   // special characters -- don't perform a search (exception here is space character)
+	   if (event.keyCode == 38) {
+	      // up arrow -- move selection
+	      updateSelectedAutoCompleteItem(currentAutoCompleteItemIndex - 1);
+	      return false;
+	   }
+	   if (event.keyCode == 40) {
+	      // down arrow -- move selection
+	      updateSelectedAutoCompleteItem(currentAutoCompleteItemIndex + 1);
+	      return false;
+	   }
+	   if (event.keyCode == 13) {
+	      // enter pressed -- if we have a selection go to it instead of submitting the search result
+	      if (currentAutoCompleteItemIndex >= 0  &&  currentAutoCompleteItemIndex < maxAutoCompleteItemIndex) {  // bounds checking
+	         window.location = autoCompleteProductArray[currentAutoCompleteItemIndex];
+	         return false;
+	      }
+	   }
+
+	   // we need to perform a search if our search string is different than the last one
+	   if (lastsearch.replace(/\W/g, "") != searchvalue.replace(/\W/g, "")) {
+	      currentAutoCompleteItemIndex = -1;
+	      autoCompleteProductArray = new Array();
+	      lastsearch = searchvalue;
+	      if (isSearchDialogOpen == false) {
+	         $('#mainsearchresults').html(searchWaitHtml);
+	      }
+	      isSearchDialogOpen = true;
+
+	      if (searchTimerId > 0) {
+	         // we already have a search timer running, reset it
+	         clearTimeout(searchTimerId);
+	      }
+
+	      searchTimerId = setTimeout("searchAutoCompleteRun('" + escape(searchvalue) + "');", searchTimerDelay);
+
+	      // show the results panel if it's hidden
+	      if (!$("#mainsearchresults").is(':visible')) {
+	         $('#mainsearchresults').fadeTo(100, 0.95);
+	      }
+	   }
+
+	   return true;
+	}
+
+	function searchAutoCompleteRun(searchvalue) {
+		$('#mainsearchresults').load('/control/searchautocomplete?query=' + searchvalue);
+	}
+	*/
+
+	function closeOpenDropDowns() {
+//	    closeSearchResultDialog();
+	    closeCartDropDown();
+	}
+
+/*
+	function closeSearchResultDialog() {
+	   isSearchDialogOpen = false;
+	   $('#mainsearchresults').fadeOut(100, null);
+	}
+*/
+
+	function closeCartDropDown() {
+	   isCartDropDownOpen = false;
+       $('#maintoolscartdd').fadeOut(100, null);
+	}
+
+	function openCartDropDown() {
+       if (!$("#maintoolscartdd").is(':visible')) {
+          $('#maintoolscartdd').fadeTo(100, 0.95);
+       }
+	}
+
+	/*
+	function updateSelectedAutoCompleteItem(autoCompleteItemIndex) {
+	   if (currentAutoCompleteItemIndex != autoCompleteItemIndex) {  // only continue if the index is actually changing
+	      if (autoCompleteItemIndex >= 0  &&  autoCompleteItemIndex < maxAutoCompleteItemIndex) {  // bounds checking
+	         if (!$('#sac_item_' + autoCompleteItemIndex).hasClass('sac_selecteditem')) {
+	            $('#sac_item_' + autoCompleteItemIndex).addClass('sac_selecteditem')
+	         }
+	         if (currentAutoCompleteItemIndex >= 0  &&  currentAutoCompleteItemIndex < maxAutoCompleteItemIndex) {  // bounds checking
+	            $('#sac_item_' + currentAutoCompleteItemIndex).removeClass('sac_selecteditem')
+	         }
+	         currentAutoCompleteItemIndex = autoCompleteItemIndex;
+	      }
+	   }
+	}
+	*/
+
+	var currentTabType = new Array();
+    function changeTab(tabGroup, tabType) {
+       if (currentTabType[tabGroup] == null) {
+          // special code for the first time we're called -- make sure we have the inactive class set for the first active tab
+          if (!$('#' + tabGroup + '_tab_' + tabType).hasClass('boxtabheaderinactive')) {
+             $('#' + tabGroup + '_tab_' + tabType).addClass('boxtabheaderinactive');
+          }
+       }
+       if (tabType != currentTabType[tabGroup]) {
+          if (currentTabType[tabGroup] != '') {
+             $('#' + tabGroup + '_tab_' + currentTabType[tabGroup]).toggleClass('boxtabheaderinactive');
+             $('#' + tabGroup + '_body_' + currentTabType[tabGroup]).css('display', 'none');
+          }
+          $('#' + tabGroup + '_tab_' + tabType).toggleClass('boxtabheaderinactive');
+          $('#' + tabGroup + '_body_' + tabType).fadeTo(300, 1.00, null);
+       }
+       currentTabType[tabGroup] = tabType;
+    }
+</script>
+<div id="maincontent">
+<div>
+<div id="mainbackbutton"><a href="/control/main">&lt; Home</a></div>
+<a href="/control/main"><div id="mainlogo">&nbsp;</div></a>
+<div id="maintools">
+<a href="/control/account"><div id="maintoolsaccountbutton">My Account</div></a>
+<div onclick="document.location.href = '/control/showcart';" id="maintoolscart"><div id="maintoolscarticon" class="sp"></div><div id="maintoolscartamt">0</div><div id="maintoolscarttext">cart</div></div>
+<a href="/control/showcart"><div id="maintoolscartdd_tgt"></div></a>
+<div id="maintoolscartdd">
+<div id="maintoolscartddtop"></div>
+<div id="maintoolscartddcontent">
+<div id="maintoolscartddcontentlist">
+<div class="cart_empty">Your cart is currently empty.</div>
+</div>
+<div id="maintoolscartddcontentsc">
+<a href="/control/showcart"><div class="button smallbtn highlightbtn">View Shopping Cart &gt;</div></a>
+</div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div id="maintoolslinks">
+<div id="maintoolslink1"><a href="/control/faq">HELP</a></div>&nbsp;&nbsp;/&nbsp;&nbsp;<div id="maintoolslink2"><a href="/control/currentpromos">DEALS<div id="dealscount">11</div></a></div>/&nbsp;&nbsp;<div id="maintoolslink3"><a href="/control/contactform">CONTACT&nbsp;US</a></div>
+</div>
+</div>
+<div id="mainsearch">
+<form method="POST" id="mainsearchform" action="/control/catalogsearch">
+<div id="mainsearchbar">
+<div class="mainsearchbarlabel"><div>Search</div></div>
+<input type="hidden" name="SEARCH_OPERATOR" value="AND">
+<input id="mainsearchbarfield" autocomplete="off" type="text" name="SEARCH_STRING" maxlength="50" value="">
+<div class="mainsearchbarlabel" id="mainsearchbargobutton"><input type="submit" value="&gt;"></div>
+</div>
+</form>
+<div id="mainsearchresults">&nbsp;</div>
+</div>
+<div id="maintoolstracking" onclick="window.location = '/control/orderstatus';">
+<div id="maintoolstrackinglabel"><a href="/control/orderstatus">Track Order</a></div>
+<div id="maintoolstrackinggobtn"><a href="/control/orderstatus">&gt;</a></div>
+</div>
+<map name="mainmenumap" id="mainmenumap">
+<area id="mm_map_sba" alt="Shop by Age" title="Shop by Age" href="/control/shopbyage" shape="poly" coords="27,1,2,47,26,92,81,92,105,47,81,1">
+<area id="mm_map_sbp" alt="Shop by Players" title="Shop by Players" href="/control/shopbyplayers" shape="poly" coords="27,92,1,137,28,183,81,183,106,137,80,92">
+<area id="mm_map_kids" alt="Kids" title="Kids" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_KIDS" shape="poly" coords="159,47,105,47,81,92,106,137,159,138,185,92">
+<area id="mm_map_fam" alt="Family" title="Family" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_FAMILY" shape="poly" coords="184,1,158,47,185,92,237,92,263,47,238,0">
+<area id="mm_map_str" alt="Strategy" title="Strategy" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_STRATEGY" shape="poly" coords="316,46,263,46,238,92,263,137,317,137,342,92">
+<area id="mm_map_card" alt="Card" title="Card" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_CARD" shape="poly" coords="343,1,316,47,341,92,397,92,423,47,396,1">
+<area id="mm_map_party" alt="Party" title="Party" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_PARTY" shape="poly" coords="421,47,397,92,421,138,473,138,499,92,474,46">
+<area id="mm_map_puz" alt="Puzzles" title="Puzzles" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_PUZZLES" shape="poly" coords="499,92,474,138,500,183,554,183,578,138,552,92">
+<area id="mm_map_toys" alt="Toys" title="Toys" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_TOYS" shape="poly" coords="579,47,553,92,578,138,633,138,658,92,632,46">
+<area id="mm_map_acc" alt="Extras" title="Extras" href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_ACCESSORIES" shape="poly" coords="657,92,633,138,657,183,711,183,737,136,711,92">
+</map>
+<div id="mainmenu">
+<div class="hex hex_decorative" id="mm_hex_dec_01"><div class="hexborder">&nbsp;</div></div>
+<div class="hex hex_decorative" id="mm_hex_dec_02"><div class="hexborder">&nbsp;</div></div>
+<div class="hex hex_decorative" id="mm_hex_dec_03"><div class="hexborder">&nbsp;</div></div>
+</div>
+<div id="maincolumnmenu">
+<a href="/fulfillment"><img src="/faimages/rotating/FulfillmentFrontPageSmall.png"></a>
+<map name="maincolumnmenumap" id="maincolumnmenumap">
+<area id="mcm_map_points" alt="Pre-Order Games" title="Pre-Order Games" href="/control/preorderlist" shape="poly" coords="37,0,12,45,38,91,91,91,116,45,91,0">
+<area id="mcm_map_membership" alt="Ashland Store" title="Ashland Store" href="/control/ashland" shape="poly" coords="37,91,12,136,38,182,91,182,116,136,91,91">
+<area id="mcm_map_ashland" alt="Eugene Store" title="Eugene Store" href="/control/eugene" shape="poly" coords="37,182,12,227,38,272,91,272,116,227,91,182">
+<area id="mcm_map_eugene" alt="Facebook" title="Facebook" target="_blank" href="https://twitter.com/funagaingames" shape="poly" coords="37,273,12,318,38,364,91,364,116,318,91,273">
+<area id="mcm_map_fb" alt="Facebook" title="Facebook" target="_blank" href="https://www.facebook.com/funagain" shape="poly" coords="37,364,12,409,38,455,91,455,116,409,91,364">
+</map>
+<div id="maincolumnmenuframe"><img src="/faimages/common/spacer.png" usemap="#maincolumnmenumap"></div>
+<div class="hex" id="mcm_hex_points">
+<div class="hexbackground hex_b06 spl" id="mcm_bg_points">&nbsp;</div>
+<div class="hexborder">&nbsp;</div>
+<div class="hexcontent" id="mcm_label_points">
+<div class="hex_sec">Pre-Order</div>
+<div class="hex_pri">Games</div>
+</div>
+</div>
+<div class="hex" id="mcm_hex_membership">
+<div class="hexbackground hex_b01 spl" id="mcm_bg_membership">&nbsp;</div>
+<div class="hexborder">&nbsp;</div>
+<div class="hexcontent" id="mcm_label_membership">
+<div class="hex_sec">ASHLAND</div>
+<div class="hex_pri">Store</div>
+</div>
+</div>
+<div class="hex" id="mcm_hex_ashland">
+<div class="hexbackground hex_b02 spl" id="mcm_bg_ashland">&nbsp;</div>
+<div class="hexborder">&nbsp;</div>
+<div class="hexcontent" id="mcm_label_ashland">
+<div class="hex_pri">EUGENE</div>
+<div class="hex_sec">Store</div>
+</div>
+</div>
+<div class="hex" id="mcm_hex_eugene">
+<div class="hexbackground hex_b03 spl" id="mcm_bg_eugene">&nbsp;</div>
+<div class="hexborder">&nbsp;</div>
+<div class="hexcontent" id="mcm_label_eugene"><div style="margin-left: 28px;"><div class="tw_logo"></div></div></div>
+</div>
+<div class="hex" id="mcm_hex_fb">
+<div class="hexbackground hex_b06 spl" id="mcm_bg_fb">&nbsp;</div>
+<div class="hexborder">&nbsp;</div>
+<div class="hexcontent" id="mcm_label_fb"><div><div class="sp fb_logo"></div></div></div>
+</div>
+</div>
+<div id="pagecontent">
+<script>showjGrowl();</script>
+<div style="width: 50%; margin: 0 auto;">
+<form method="post" action="https://customers.listrak.com/q/Pig_s3bKt_qdXTQdUFToh7029oSHKqMn4L" accept-charset="UTF-8">
+<input type="hidden" name="crvs" value="iEqX86vndpELMRA0WJFj0ZT1F6h8AhewxgdHU3zDxw5g4cyJqZrBGqYYdVUqJ7p0uYCRmuAjZUter6slor5iYptfVis0jEhXRVoqWRGjKOQ">
+<input type="text" name="NameF" size="10" maxlength="10" value="" tabindex="-1" autocomplete="off" style="float: left !important; position:absolute !important; left:-9000px !important; top: -9000px !important;"><input type="text" name="NameL" size="10" maxlength="10" value="" tabindex="-1" autocomplete="off" style="float: left !important; position:absolute !important; left:-9000px !important; top: -9000px !important;"><input type="text" name="Comment" size="10" maxlength="10" value="" tabindex="-1" autocomplete="off" style="float: left !important; position:absolute !important; left:-9000px !important; top: -9000px !important;"><table border="0" cellspacing="0" cellpadding="5">
+<tbody><tr>
+<td align="center" colspan="3"><strong><font size="+2">Join Our Newsletter</font></strong></td>
+</tr>
+<tr>
+<td align="left">Email<font color="red">*</font></td>
+<td><input type="text" name="email" size="20" maxlength="100" value="">
+</td><td align="left"><input type="submit" id="submit" value="Sign Up"></td>
+<td>&nbsp;</td>
+
+
+
+
+</tr>
+</tbody></table>
+</form>
+</div>
+<div style="clear:both;">&nbsp;</div>
+<script src="/faimages/media/dropzone.min.js"></script>
+<script src="/faimages/media/jsVideoUrlParser.min.js"></script>
+<script>
+   function popupFAQ(anchorTarget) {
+      window.open("/control/popupfaq#" + anchorTarget, "popupFaq", "width=500,height=500,resizeable=yes,scrollbars=yes");
+      return(false);
+   }
+   function showImage(imageElementId, imageSrc) {
+      var imageElement = $('#' + imageElementId);
+      var imageElementImg = $('#' + imageElementId + 'img');
+      if (imageElement != null  &&  imageElementImg != null) {
+          imageElementImg.attr('src', imageSrc);
+          imageElement.fadeIn(200, null);
+      }
+      return false;
+   }
+   var previousMediaId = null;
+   function showMedia(type, mediaId) {
+      if (previousMediaId) {
+         $("#mediathumb_" + previousMediaId).removeClass("pmlselected");
+      }
+      $("#mediathumb_" + mediaId).addClass("pmlselected");
+      previousMediaId = mediaId;
+      if (type == "image") {
+         $("#productheadermediadisplay").html('<img onclick="toggleMediaBrowser(\'' + mediaId + '\');" class="mediumthumbnail" src="' + largeImageUrlMap[mediaId] + '" alt="T.I.M.E Stories" title="T.I.M.E Stories" />');
+      } else if (type == "video") {
+         $("#productheadermediadisplay").html(videoSrcMap[mediaId]);
+      }
+      if (attrMap[mediaId]  &&  attrMap[mediaId] != "") {
+         $("#productmediaattr").html("Customer media from: " + attrMap[mediaId]);
+      } else {
+         $("#productmediaattr").html("");
+      }
+   }
+   var previousBrowserMediaId = null;
+   function showBrowserMedia(type, mediaId) {
+      if (previousBrowserMediaId) {
+         $("#mediabrowserthumb_" + previousBrowserMediaId).removeClass("pmlselected");
+      }
+      $("#mediabrowserthumb_" + mediaId).addClass("pmlselected");
+      previousBrowserMediaId = mediaId;
+      if (type == "image") {
+         var imageData = hugeImageUrlMap[mediaId];
+         $("#pmbimage").html('<div onclick="location.href=\'' + imageData[0] + '\';" style="max-width: ' + imageData[1] + 'px; max-height: ' + imageData[2] + 'px; background-image: url(' + imageData[0] + ');">&nbsp;</div>');
+      } else if (type == "video") {
+         $("#pmbimage").html(videoSrcMap[mediaId]);
+      }
+      if (attrMap[mediaId]  &&  attrMap[mediaId] != "") {
+         $("#pmbattr").html("Customer media from: " + attrMap[mediaId]);
+      } else {
+         $("#pmbattr").html("");
+      }
+   }
+   function toggleMediaBrowser(initialMediaId) {
+      if ($("#productmediabrowser").css("display") == "none") {
+         $("#productmediabrowser").css("display", "block");
+         $("#productmediabrowser").fadeTo(100, 1.0, function() {
+            $(document).click(function(event) {
+               if (!$(event.target).closest('#pmbcontainer').length) {
+                  toggleMediaBrowser();
+               }
+            });
+         });
+            showBrowserMedia('image', initialMediaId);
+      } else {
+         $("#productmediabrowser").fadeTo(100, 0.0, function() {
+            $("#pmbimage").html('');
+            $("#productmediabrowser").css("display", "none");
+         });
+         $(document).off("click");
+      }
+   }
+   var hugeImageUrlMap = { '43035':['&#x2f;faimages&#x2f;catalog&#x2f;product&#x2f;medium&#x2f;4&#x2f;033906_43035.jpeg',190,209] };
+   var largeImageUrlMap = { '43035':'&#x2f;faimages&#x2f;catalog&#x2f;product&#x2f;medium&#x2f;4&#x2f;033906_43035.jpeg' };
+   var videoSrcMap = {  };
+   var attrMap = { '43035':'' };
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "T.I.M.E Stories",
+  "image": [
+    "https://www.funagain.com//faimages/catalog/product/large/4/033906_43035.jpeg"
+   ],
+  "description": "Time Stories offers a unique blend of role-playing and boardgaming experience. It is a decksploring game, and each deck of 120&#x2b; cards is a new story to explore.&#xd;&#xa;&#xd;&#xa;The players are agents in a futuristic TSA &#x28;Time Survey Agency&#x29; that detects time discrepancies and sends you on mission, usually to prevent temporal rifts. Each mission is different, being set in a different atmosphere and illustrated by a different artist, with each mission having a core mechanism that differs from the next.&#xd;&#xa;&#xd;&#xa;You usually take possession of local hosts to navigate in a given environment, but who knows what you&#x27;ll have to do to succeed&#x3f; Roam a med-fan city, looking for the dungeon where the Syaan king is hiding&#x3f; Survive in the Antarctic while enormous creatures lurk beneath the surface of the ice&#x3f; Solve a puzzle in an early 20th century asylum&#x3f; That is all possible, and you might even have to jump from one host to another, or play against your fellow agents from time to time...&#xd;&#xa;&#xd;&#xa;Time Stories is a decksploring game in which each deck makes anything possible&#x21;",
+  "mpn": "033906"
+}
+</script>
+<div id="productmediabrowser">
+<div id="pmbcontainer">
+<div><div>
+<div id="pmbclose" onclick="toggleMediaBrowser();" class="button standardbtn largebtn">Close</div>
+<div id="productmedialist">
+<div id="mediabrowserthumb_43035" onmouseover="showBrowserMedia('image', '43035');"><img src="/faimages/catalog/product/small/4/033906_43035.jpeg"></div>
+</div>
+</div></div>
+<div><div id="pmbattr">&nbsp;</div></div>
+<div><div id="pmbimage"></div></div>
+</div>
+</div>
+<table id="productheadergroup">
+<tbody><tr>
+<td id="productheadergroup1">
+<div id="productheadermedia">
+<div id="productheadermediadisplay"><img onclick="toggleMediaBrowser('43035');" class="mediumthumbnail" src="/faimages/catalog/product/medium/4/033906_43035.jpeg" alt="T.I.M.E Stories" title="T.I.M.E Stories"></div>
+</div>
+<div id="productmediaattr"></div>
+<script>showMedia('image', '43035');</script>
+<div id="prodsubmitmedia">
+<div><a href="#" onclick="return toggleSubmitMedia();" class="button standardbtn smallbtn">Submit an image or video</a></div>
+<div id="psmcontainerback">&nbsp;</div>
+<div id="psmcontainerbackclick"><div id="psmcontainer">
+Get <a href="/control/points">Funagain Points</a> by submitting media!
+<a href="/control/points">Full details, including content license, are available here</a>.
+<div>
+You must be logged in to your account to submit media. Please <a href="/control/checkLogin">click here to log in or create a free account.</a>
+</div>
+</div></div>
+</div>
+<script>
+   function submitVideo() {
+      $("#psmvideosubmiterror").hide();
+      var videoLinkValue = $("#videoLink").val();
+      if (videoLinkValue == null  ||  videoLinkValue == "") {
+         $("#psmvideosubmiterror").show();
+         return;
+      }
+
+      var parser = new URLParser();
+      var parseResult = urlParser.parse(videoLinkValue);
+
+      // check for failure
+      if (parseResult == null  ||
+          parseResult.mediaType != "video"  ||
+          (parseResult.provider != "youtube"  &&  parseResult.provider != "vimeo")  ||
+          parseResult.id == null) {
+         $("#psmvideosubmiterror").show();
+         return;
+      }
+
+      // success
+      if (parseResult.provider == "youtube") {
+         $("#externalIdTypeId").val("MTEI_VIDEO_YOUTUBE");
+      } else if (parseResult.provider == "vimeo") {
+         $("#externalIdTypeId").val("MTEI_VIDEO_VIMEO");
+      }
+      $("#externalId").val(parseResult.id);
+
+      // send the request
+      $.ajax({
+         url: '/control/submitPendingVideo',
+         method: 'POST',
+         data: {
+            'catalogMediaTypeId': $("#catalogMediaTypeId").val(),
+            'associatedId': $("#associatedId").val(),
+            'mediaTypeId': $("#mediaTypeId").val(),
+            'externalId': $("#externalId").val(),
+            'externalIdTypeId': $("#externalIdTypeId").val()
+         },
+         success: function(data, textStatus, jqXHR) {
+            $("#psmresult").show();
+            $("#psmresultsuccess").show();
+            $("#psmspecify").hide();
+         },
+         error: function(jqXHR, textStatus, errorThrown) {
+            $("#psmresult").show();
+            $("#psmresulterror").show();
+            if (jqXHR.responseText) {
+               $("#psmresulterror").html("We're sorry, the following error occurred: " + jqXHR.responseText);
+            } else {
+               $("#psmresulterror").html("We're sorry, the following error occurred: " + errorThrown);
+            }
+            $("#psmspecify").hide();
+         }
+      });
+   }
+
+   var myDropzone = null;
+   function initializeDropzone() {
+      var previewNode = $("#dz-uploadtemplate");//  document.querySelector("#dz-uploadtemplate");
+      if (!previewNode.length) {
+         return;  // dropzone not there; user must not be logged in
+      }
+      var previewTemplate = previewNode.parent().html();
+      previewNode.remove();
+
+      myDropzone = new Dropzone(document.querySelector("#dz-droparea"), {
+         url: "/control/submitPendingImage",
+         thumbnailWidth: 40,
+         thumbnailHeight: 40,
+         acceptedFiles: ".jpg,.jpeg,.png,.gif",
+         parallelUploads: 1,
+         maxFiles: 1,
+         uploadMultiple: false,
+         previewTemplate: previewTemplate,
+         autoProcessQueue: true,
+         previewsContainer: "#dz-uploadlist",
+         dictMaxFilesExceeded: "You can only upload one file at a time.  If success is noted above, the first file you added was successfully uploaded but the rest were ignored."
+      });
+
+      myDropzone.on("addedfile", function(file) {
+         $("#dz-droparea").hide();
+         $("#psmspecifyvideo").hide();
+      });
+
+      myDropzone.on("success", function(file) {
+         $("#psmresult").show();
+         $("#psmresultsuccess").show();
+         $("#psmspecify").hide();
+         myDropzone
+      });
+
+      myDropzone.on("error", function(file, errorMessage) {
+         $("#psmresult").show();
+         $("#psmresulterror").show();
+         if (errorMessage) {
+            $("#psmresulterror").html("We're sorry, the following error occurred: " + errorMessage);
+         } else {
+            $("#psmresulterror").html("An error occurred.  Please try again later.");
+         }
+         $("#psmspecify").hide();
+      });
+
+      myDropzone.on("totaluploadprogress", function(progress) {
+         var progressBar = document.querySelector(".dz-progressbar");
+         if (progressBar) {
+            progressBar.style.width = progress + "%";
+         }
+      });
+   }
+
+   function toggleSubmitMedia() {
+      if ($("#psmcontainerback").css("display") == "none") {
+         $("#psmcontainerback").css("display", "block");
+         $("#psmcontainer").css("display", "block");
+         $("#psmcontainerback").fadeTo(100, 1.0);
+         $("#psmcontainer").fadeTo(100, 1.0, function() {
+            $(document).click(function(event) {
+               // dropzone.js places the actual hidden file upload input field near the end of the HTML (nearest to the #maincontent div)
+               // so we have to make sure we're not directly adjascent to that element or we'll close the dialog when the file select is clicked
+               if (!$(event.target).closest('#psmcontainerbackclick').length  &&
+                   $(event.target).closest('#maincontent').length) {
+                  toggleSubmitMedia();
+               }
+            });
+         });
+      } else {
+         $("#psmcontainerback").fadeTo(100, 0.0, function() {
+            $("#psmcontainerback").css("display", "none");
+         });
+         $("#psmcontainer").fadeTo(100, 0.0, function() {
+            $("#psmcontainer").css("display", "none");
+            resetSubmitMedia();
+         });
+         $(document).off("click");
+      }
+      return false;
+   }
+   function resetSubmitMedia() {
+      $("#videoLink").val("");
+      $("#psmresult").hide();
+      $("#psmresultsuccess").hide();
+      $("#psmresulterror").hide();
+      $("#psmspecify").show();
+      $("#psmspecifyvideo").show();
+      $("#dz-droparea").show();
+      myDropzone.removeAllFiles();
+      return false;
+   };
+
+   $(document).ready(initializeDropzone);
+
+</script>
+<div id="prodcatlist">
+<table cellpadding="0" cellspacing="0" border="0" style="margin-left: auto; margin-right: auto;">
+<tbody><tr>
+<td style="vertical-align: top; text-align: right;"><strong>Store:</strong>&nbsp;</td>
+<td style="vertical-align: top; text-align: left;">
+<nobr><a href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_STRATEGY">Strategy Games</a></nobr>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: right;"><strong>Theme:</strong>&nbsp;</td>
+<td style="vertical-align: top; text-align: left;">
+<nobr><a href="/control/catalogsearch?SEARCH_CATEGORY_ID=THEME_1016">Time Travel</a></nobr>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: right;"><strong>Genre:</strong>&nbsp;</td>
+<td style="vertical-align: top; text-align: left;">
+<nobr><a href="/control/catalogsearch?SEARCH_CATEGORY_ID=GENRE_0417">Voting &amp; Election</a></nobr>,
+<nobr><a href="/control/catalogsearch?SEARCH_CATEGORY_ID=GENRE_0509">Cooperative</a></nobr>
+</td>
+</tr>
+</tbody></table>
+</div>
+</td>
+<td id="productheadergroup2">
+<div id="prodbc">
+<a href="/control/main">Home</a> &gt;
+<a href="/control/storelanding?SEARCH_CATEGORY_ID=STORE_STRATEGY">Strategy Games</a> &gt;
+<a href="/control/catalogsearch?SEARCH_CATEGORY_ID=THEME_1016">Time Travel</a> &gt;&nbsp;
+</div>
+<div id="prodtitle">
+<h1>T.I.M.E Stories</h1>
+</div>
+<hr class="sepbar">
+<div id="prodaddtocart">
+<form method="POST" action="/control/addItem" name="addform" style="margin: 0;">
+<p style="margin: 0px;">
+</p><p style="margin: 0px;">
+<strong>Funagain Games does not stock this edition of this title <span class="moreinfolink">[<script>document.write("<a href=\"#\" onclick=\"return(popupFAQ('catalog07'));\">more info</a>");</script><a href="#" onclick="return(popupFAQ('catalog07'));">more info</a><noscript>&lt;a href="/control/faq?back=product%2F%7Eproduct_id%3D033906#catalog07"&gt;more info&lt;/a&gt;</noscript>]</span>, usually because it's out of print.</strong>
+</p>
+</form>
+
+
+</div>
+<hr class="sepbar">
+<div id="prodinstocknotification">
+Notify me if/when this item becomes available:<br>(you will be asked to log in first)
+<form method="post" action="/control/createProductInStockNotification">
+<input type="hidden" name="notificationData" value="033906">
+<input type="hidden" name="notificationTypeId" value="PRODUCT_IN_STOCK">
+<input type="hidden" name="product_id" value="033906">
+<input class="button standardbtn smallbtn" type="submit" style="margin-top: 2px;" value="Notify Me &gt;">
+</form>
+</div>
+<div id="prodinfobox">
+<div id="prodinforeview">
+<p style="margin: 0px;"><a href="#prodreviews">Be the first to review this product!</a></p>
+</div>
+<hr class="sepbar">
+<div id="prodinfocounts">
+<table><tbody><tr>
+<td class="prodinfocountheader">Ages</td>
+<td class="prodinfocountheader">Play Time</td>
+<td class="prodinfocountheader">Players</td>
+ </tr><tr>
+<td class="prodinfocountdata">
+12+
+</td>
+<td class="prodinfocountdata"><nobr>90<span class="prodinfocountmin"> minutes</span></nobr></td>
+<td class="prodinfocountdata">2-4</td>
+</tr></tbody></table>
+</div>
+<hr class="sepbar">
+<div id="prodinfodesign">
+<p style="margin: 0px;"><em>Manufacturer(s):</em> <nobr><a href="/control/catalogsearch?S_FPAR=305613:MANUFACTURER&amp;S_UNAVAIL=N">Space Cowboys</a></nobr>, <nobr><a href="/control/catalogsearch?S_FPAR=432269:MANUFACTURER&amp;S_UNAVAIL=N">Asmodee North America</a></nobr></p>
+</div>
+</div>
+<div id="prodshoppinglist" class="listcontbase">
+<p style="margin: 0px;">Please <a href="/control/checkLogin">Login</a> to use shopping lists.</p>
+</div>
+</td>
+</tr>
+</tbody></table>
+<div class="clearboth"></div>
+<div id="producthazard" class="messagebox warningbox">
+<div class="messageboxicon"><div class="sp warningicon"></div></div>
+<div class="messageboxcontent">
+<ul>
+<li><strong>WARNING: Choking Hazard - Small Parts</strong></li>
+</ul>
+</div>
+</div>
+<div id="proddescription">
+<h1 class="prodsectiontitle" style="margin-bottom: 0px;">Product Description</h1>
+<div class="textcontent prodsection"></div>
+<div style="margin-bottom: 10px;"><div class="textcontent prodsection">Time Stories offers a unique blend of role-playing and boardgaming experience. It is a decksploring game, and each deck of 120+ cards is a new story to explore.
+The players are agents in a futuristic TSA (Time Survey Agency) that detects time discrepancies and sends you on mission, usually to prevent temporal rifts. Each mission is different, being set in a different atmosphere and illustrated by a different artist, with each mission having a core mechanism that differs from the next.
+You usually take possession of local hosts to navigate in a given environment, but who knows what you'll have to do to succeed? Roam a med-fan city, looking for the dungeon where the Syaan king is hiding? Survive in the Antarctic while enormous creatures lurk beneath the surface of the ice? Solve a puzzle in an early 20th century asylum? That is all possible, and you might even have to jump from one host to another, or play against your fellow agents from time to time...
+Time Stories is a decksploring game in which each deck makes anything possible!</div></div>
+</div>
+<div id="prodinformation">
+<h1 class="prodsectiontitle">Product Information</h1>
+<div class="textcontent prodsection">
+<ul>
+<li><p style="margin: 0px;"><em>Manufacturer(s):</em> <nobr><a href="/control/catalogsearch?S_FPAR=305613:MANUFACTURER&amp;S_UNAVAIL=N">Space Cowboys</a></nobr>, <nobr><a href="/control/catalogsearch?S_FPAR=432269:MANUFACTURER&amp;S_UNAVAIL=N">Asmodee North America</a></nobr></p></li>
+<li><p style="margin: 0px;"><em>Year:</em> 2015</p></li>
+<li><p style="margin: 0px;"><em>Players:</em> 2 - 4</p></li>
+<li><p style="margin: 0px;"><em>Time:</em> 90 minutes</p></li>
+<li><p style="margin: 0px;"><em>Ages:</em> 12 and up</p></li>
+<li><p style="margin: 0px;"><em>Weight:</em> 1,805 grams </p></li>
+</ul>
+</div>
+</div>
+<div id="prodcontents">
+<h1 class="prodsectiontitle">Contents:</h1>
+<div class="textcontent prodsection"><ul><li>8 Agent counters</li><li> 1 Time marker</li><li> 1 Group marker</li><li> 1 Time captain die</li><li> 6 Action dice </li><li> 40 Shields normal/skull</li><li> 7 Time shields</li><li> 7 Heart shields</li><li> 7 Special shields</li><li> 140 Resource chips </li><li>30 Health points</li><li>24 Advancement tokens</li></ul></div>
+</div>
+<div class="clearboth"></div>
+<div id="prodexpansion"> <div id="boxcontainer">
+<div class="boxheader boxtabheader">T.I.M.E Stories has the following expansions available:</div>
+<div class="boxbody boxtabbody">
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=043148">
+<img src="/faimages/catalog/product/small/5/043148_59268.jpeg" alt="T.I.M.E Stories: Special Reward promo" title="T.I.M.E Stories: Special Reward promo" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=043148">T.I.M.E Stories: Special Reward promo</a>
+<em>Egg 7</em>
+<br>
+</p><div id="prodpricecompact">
+<div>
+<div id="prodpriceyour"><span id="prodpriceyourprice">$5.00</span></div>
+</div>
+</div>
+<form method="POST" style="margin: 0px;" action="/control/addItem/product?quantity=1&amp;add_product_id=043148N&amp;product_id=043148">
+<input style="margin-bottom: 2px; margin-top: 2px;" class="button standardbtn smallbtn" type="submit" value="Add to Cart &gt;">
+</form>
+<p></p>
+</div>
+</div>
+
+
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=038821">
+<img src="/faimages/catalog/product/smallbw/5/038821_52550.jpeg" alt="T.I.M.E Stories: Lumen Fidei" title="T.I.M.E Stories: Lumen Fidei" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=038821">T.I.M.E Stories: Lumen Fidei</a>
+<strong><em>Out of Stock</em></strong>
+</p>
+</div>
+</div>
+
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=037354">
+<img src="/faimages/catalog/product/smallbw/5/037354_50302.jpeg" alt="T.I.M.E Stories: Expedition Endurance" title="T.I.M.E Stories: Expedition Endurance" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=037354">T.I.M.E Stories: Expedition Endurance</a>
+<strong><em>Out of Stock</em></strong>
+</p>
+</div>
+</div>
+<div class="clearboth"></div>
+
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=035421">
+<img src="/faimages/catalog/product/smallbw/4/035421_47309.jpeg" alt="T.I.M.E Stories: Under the Mask" title="T.I.M.E Stories: Under the Mask" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=035421">T.I.M.E Stories: Under the Mask</a>
+<strong><em>Out of Stock</em></strong>
+</p>
+</div>
+</div>
+
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=035242">
+<img src="/faimages/catalog/product/smallbw/4/035242_47023.jpeg" alt="T.I.M.E Stories: A Prophecy of Dragons" title="T.I.M.E Stories: A Prophecy of Dragons" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=035242">T.I.M.E Stories: A Prophecy of Dragons</a>
+<strong><em>Out of Stock</em></strong>
+</p>
+</div>
+</div>
+<div class="clearboth"></div>
+
+<div class="productsummaryrow">
+<div class="prodsummarycompactimage">
+<a href="/control/product?product_id=033907">
+<img src="/faimages/catalog/product/smallbw/4/033907_43034.jpeg" alt="T.I.M.E Stories: The Marcy Case" title="T.I.M.E Stories: The Marcy Case" class="thumbnail">
+</a>
+</div>
+<div class="prodsummarycompactdesc"><p style="margin: 0px;">
+<a href="/control/product?product_id=033907">T.I.M.E Stories: The Marcy Case</a>
+<strong><em>Out of Stock</em></strong>
+</p>
+</div>
+</div>
+
+<div class="clearboth"></div>
+</div>
+</div>
+</div>
+<div id="prodreviews">
+<h1 class="prodsectiontitle">Product Reviews</h1>
+<a name="prodreviews"></a>
+<div class="boxcontainer">
+<div class="boxheader boxtabheader" id="prodreviews_tab_customer" onclick="changeTab('prodreviews', 'customer');">
+<noscript>&lt;a href="/control/product?product_id=033906&amp;prod_reviews_tab=customer#prodreviews"&gt;Customers (1)&lt;/a&gt;</noscript><script language="javascript">document.write('Customers (1)');</script>Customers (1)
+</div>
+<div class="boxbody boxtabbody boxbodytext" id="prodreviews_body_customer" style="opacity: 1;">
+<div>
+<div title="2.00" class="ratingstars">
+<div class="ratingstars100 sp">&nbsp;</div>
+<div class="ratingstars100 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+</div>
+<br>
+Average Rating: <strong>2 in 1 review</strong>
+</div>
+<hr class="sepbar">
+<div style="float: left; margin-top: 6px; margin-bottom: 6px;">
+<form method="post" action="#prodreviews">
+<input type="hidden" name="reviews_show_all" value="Y">
+Sort reviews by:
+<select name="review_sort_by" onchange="window.location = '/control/product?product_id=033906&amp;reviews_show_all=Y&amp;review_sort_by=' + this[this.selectedIndex].value + '#prodreviews';">
+<option value="scoreDesc">Review score, highest to lowest (default)</option>
+<option value="scoreAsc">Review score, lowest to highest</option>
+<option value="dateDesc">Date, newest to oldest</option>
+<option value="dateAsc">Date, oldest to newest</option>
+</select>
+<noscript>&lt;input type="submit" class="button standardbtn smallbtn" value="Go &amp;gt;" /&gt;</noscript>
+</form>
+</div>
+<div style="float: right; margin-top: 6px; margin-bottom: 6px;">
+<a class="button standardbtn largebtn" href="/control/reviewproduct?product_id=033906">Submit a Review &gt;</a>
+</div>
+<div class="clearboth"></div>
+<hr class="sepbar">
+<a name="rev_75641"></a>
+<div class="reviewlast">
+<div class="reviewrating">
+<div title="2.00" class="ratingstars">
+<div class="ratingstars100 sp">&nbsp;</div>
+<div class="ratingstars100 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+<div class="ratingstars000 sp">&nbsp;</div>
+</div>
+</div>
+<div class="reviewname">
+by
+<strong>
+<a href="/control/customerreviews?user=475162" title="View all reviews from this customer">Allison Kalman</a>
+</strong>
+</div>
+<div class="clearboth"></div>
+<div class="reviewtitle">
+<strong>I'm in the minority but the end of this game ruined it for us</strong>
+</div>
+<div class="reviewdate">July 06, 2017</div>
+<div class="clearboth"></div>
+<div class="reviewbody textcontent"><p>I had really high hopes for this game based on all the raves I had heard, but our group
+ultimately felt like the game was broken, with the end game undermining our entire
+experience.</p>
+<p>It has some decent story and the theme really carries through, but the game mechanics
+where consistent through most of the game, until one puzzle didn't follow any of the rules
+of the rest of the game, leading us to get utterly stuck and ultimately have to abandon the
+game and look up the answer on the internet.</p>
+<p>If you're into escape room type games it's certainly worth looking into further, but I
+wouldn't play any more games in this series after our awful experience. </p></div>
+</div>
+</div>
+</div>
+</div>
+<div id="prodotherresources">
+<h1 class="prodsectiontitle">Other Resources for T.I.M.E Stories:</h1>
+<a href="https://www.boardgamegeek.com/game/146508" target="_blank"><div class="bgglinkicon sp" title="Board Game Geek" alt="Board Game Geek"></div></a>
+<div style="float: left; width: 610px; margin-top: 1px; margin-left: 6px;"><a href="http://www.boardgamegeek.com/game/146508" target="_blank">Board Game Geek</a> is an incredible compilation of information about board and card games with many descriptions, photographs, reviews, session reports, and other commentary.</div>
+</div>
+<script language="javascript">
+   changeTab('prodreviews', 'customer');
+</script>
+<div class="clearboth"></div>
+<br>
+</div> <div class="clearboth"></div>
+<div id="footer">
+<div id="footerlinks">
+<a href="/control/faq">Help</a>
+<a href="/control/policy">Policies</a>
+<a href="/control/contactform">Contact Us</a>
+<a href="/control/account">My Account</a>
+<a href="/control/listShoppingLists">My Lists</a>
+<a href="/control/showcart">Cart</a>
+</div>
+<div id="footerdisclaimer">
+©1996-2018 Funagain Games. All rights reserved.
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"4f9e12108e","agent":"","beacon":"bam.nr-data.net","applicationTime":346,"applicationID":"3078544","transactionName":"ZlAEYREDWkEEUEdaXF8aA1YMD1lXF1BWHFZSWgtYBhBXV0pDQVxXRFYS","queueTime":0}</script>
+
+
+</body></html>

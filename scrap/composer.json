@@ -1,0 +1,22 @@
+{
+    "name": "bot bot ",
+    "description": "stnc botpot",
+    "keywords": [
+        "framework",
+        "scrapper"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "fabpot/goutte": "^3.2",
+        "illuminate/database": "^5.7",
+        "laravelcollective/html": "^5.4",
+        "stnc/pdo-database": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "app/controllers/",
+            "Models\\": "app/models/"
+        }
+    }
+}
