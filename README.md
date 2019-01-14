@@ -16,3 +16,14 @@ git push origin master
 
 git pull origin master
 
+
+Matthew's answer is great for removing remote branches and I also appreciate the explanation, but to make a simple distinction between the two commands:
+
+To remove a local branch from your machine:
+
+git branch -d {the_local_branch} (use -D instead to force deleting the branch without checking merged status)
+
+To remove a remote branch from the server:
+
+git push origin --delete {the_remote_branch}
+
