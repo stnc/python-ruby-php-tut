@@ -27,3 +27,6 @@ To remove a remote branch from the server:
 
 git push origin --delete {the_remote_branch}
 
+
+## git remote 
+
