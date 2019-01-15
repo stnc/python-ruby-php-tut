@@ -29,9 +29,22 @@ git push origin --delete {the_remote_branch}
 
 
 ## git remote 
+
+https://help.github.com/articles/fetching-a-remote/
+
+git clone https://github.com/USERNAME/REPOSITORY.git
+
+
+
+
+
 git checkout v2
+
 git branch
+
 git add .
+
 git commit -m xx"
+
 git push origin v2
 
